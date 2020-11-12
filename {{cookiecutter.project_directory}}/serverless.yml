@@ -8,7 +8,7 @@ plugins:
 
 provider:
   name: aws
-  runtime: python3.8
+  runtime: python{{ cookiecutter.lambda_runtime }}
   region: ${self:custom.region}
   stage: ${opt:stage, self:custom.defaultStage}
   profile: ${opt:profile, "default"}
@@ -47,7 +47,7 @@ functions:
       include:
         - '{{ cookiecutter.lambda_name }}/**'
     role: {{ cookiecutter.project_name.replace(' ', '').replace('_', '').replace('-', '') }}Role
-    runtime: python3.8
+    runtime: python{{ cookiecutter.lambda_runtime }}
     timeout: 10
     tracing: false
     events:

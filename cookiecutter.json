@@ -6,6 +6,7 @@
   "aws_account_id": "1234567890",
   "lambda_name": "{{ 'lambda_' + cookiecutter.project_name.lower().replace(' ', '-').replace('-', '_') }}",
   "lambda_code_deployment_bucket": "my.projects",
+  "lambda_runtime": "3.8",
   "project_directory": "{{ cookiecutter.project_name.lower().replace(' ', '-').replace('_', '-') }}",
   "project_short_description": "Template that contains a basic AWS lambda function alongside serverless and pytest for testing",
   "version": "0.1.0",

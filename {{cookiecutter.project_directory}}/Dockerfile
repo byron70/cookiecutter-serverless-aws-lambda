@@ -1,3 +1,3 @@
-FROM lambci/lambda:build-python3.8
+FROM lambci/lambda:build-python{{ cookiecutter.lambda_runtime }}
 
 RUN pip install pipenv
