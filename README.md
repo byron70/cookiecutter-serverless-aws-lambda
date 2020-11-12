@@ -1,11 +1,10 @@
-[![HitCount](http://hits.dwyl.io/hypoport/cookiecutter-serverless-aws-lambda.svg)](http://hits.dwyl.io/hypoport/cookiecutter-serverless-aws-lambda) [![Github All Releases](https://img.shields.io/github/downloads/hypoport/cookiecutter-serverless-aws-lambda/total.svg?style=flat-square)](https://github.com/hypoport/cookiecutter-serverless-aws-lambda) [![GitHub last commit](https://img.shields.io/github/last-commit/hypoport/cookiecutter-serverless-aws-lambda.svg?style=flat-square)](https://github.com/hypoport/cookiecutter-serverless-aws-lambda/commits/master)
 
 Cookiecutter Python AWS Lambda with Serverless
 ===
 
 [Cookiecutter](https://github.com/audreyr/cookiecutter) template for a Python AWS Lambda with [Serverless](https://serverless.com/framework/docs/), [Pipenv]( https://docs.pipenv.org/) etc..
 
-* GitHub repo: https://github.com/hypoport/cookiecutter-serverless-aws-lambda/
+* GitHub repo: https://github.com/byron70/cookiecutter-serverless-aws-lambda/
 
 ## Why Pipenv?
 
@@ -41,7 +40,7 @@ pip install -U pipenv
 Generate a Python project that uses Pipenv:
 
 ```
-cookiecutter gh:hypoport/cookiecutter-serverless-aws-lambda
+cookiecutter gh:byron70/cookiecutter-serverless-aws-lambda
 ```
 
 Once your project has been created, change directories:
@@ -59,9 +58,7 @@ cd <project-name>
 
 ## Fork This / Create Your Own
 
-This project itself is a fork of Andrew Elgert [cookiecutter_pipenv](https://github.com/elgertam/cookiecutter-pipenv), which is in turn based on Audrey Roy Greenfeld's
-[cookiecutter-pypackage](https://github.com/audreyr/cookiecutter-pypackage). If you have differences in your preferred setup, I encourage you to fork this to create your
-own version. Or create your own; it doesn't strictly have to be a fork.
+This project itself is a fork of [cookiecutter-serverless-aws-lambda](https://github.com/hypoport/cookiecutter-serverless-aws-lambda)
 
 
 ## Or Submit a Pull Request

@@ -13,8 +13,8 @@
   },
   "homepage": "https://github.com/{{ cookiecutter.github_username_or_organization }}/{{ cookiecutter.project_directory }}#readme",
   "devDependencies": {
-    "serverless": "^1.27.3",
+    "serverless": "^2.11.1",
     "serverless-plugin-tracing": "^2.0.0",
-    "serverless-python-requirements": "^3.0.7"
+    "serverless-python-requirements": "^5.1.0"
   }
 }

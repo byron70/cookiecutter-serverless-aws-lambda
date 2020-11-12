@@ -29,7 +29,7 @@ setup(
 {%- if cookiecutter.open_source_license in license_classifiers %}
         '{{ license_classifiers[cookiecutter.open_source_license] }}',
 {%- endif %}
-        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.8',
     ],
     description="{{ cookiecutter.project_short_description }}",
     install_requires=[],
@@ -41,8 +41,8 @@ setup(
     keywords='{{ cookiecutter.project_directory }}',
     name='{{ cookiecutter.project_directory }}',
     packages=find_packages(exclude=['*.test']),
-    setup_requires = ['pytest-runner'],
-    tests_require = ['pytest'],
+    setup_requires=['pytest-runner'],
+    tests_require=['pytest'],
     url='https://github.com/{{ cookiecutter.github_username_or_organization }}/{{ cookiecutter.project_directory }}',
     version='{{ cookiecutter.version }}',
     zip_safe=False,

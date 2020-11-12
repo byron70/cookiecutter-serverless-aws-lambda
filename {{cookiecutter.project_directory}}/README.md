@@ -60,10 +60,10 @@ make clean
 
 # Credits
 
-This software was created with [Cookiecutter] and the [`hypoport/cookiecutter-serverless-aws-lambda`], based on 
-[`elgertam/cookiecutter-pipenv`] and [`audreyr/cookiecutter-pypackage`].
+This software was created with [Cookiecutter] and [`byron70/cookiecutter-serverless-aws-lambda`], based on [`hypoport/cookiecutter-serverless-aws-lambda`] which is forked from other repositories noted.
 
 [Cookiecutter]: https://github.com/audreyr/cookiecutter
+[`byron70/cookiecutter-serverless-aws-lambda`]: https://github.com/hypoport/cookiecutter-serverless-aws-lambda
 [`hypoport/cookiecutter-serverless-aws-lambda`]: https://github.com/hypoport/cookiecutter-serverless-aws-lambda
 [`elgertam/cookiecutter-pipenv`]: https://github.com/elgertam/cookiecutter-pipenv
 [`audreyr/cookiecutter-pypackage`]: https://github.com/audreyr/cookiecutter-pypackage
